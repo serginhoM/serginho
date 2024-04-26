@@ -1,0 +1,42 @@
+*{
+
+margin: 0;
+padding: 0;
+border: 0;
+}
+body{
+    background-image: linear-gradient(90deg, rgb(84, 167, 45), black, )
+}
+header{
+    background-color: aquamarine;
+    display: flex;/* dar mais opções de estilização no CSS*/
+    flex-direction: column;/* opção para deixar todos elementos embaixo do outro*/
+    align-items: center; /* Comando para alinhar items na horizontal (centralizar)*/
+    justify-content: center;/* comando para alinhar os items na vertical (centralizar) vertical*/
+    height: 250px; /*altura do elemento*/
+
+}
+header img {
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+header nav ul li {
+    color: rgb(121, 4, 4);
+    text-transform: uppercase;
+    display: inline;
+    padding:  15px 65px;
+}
+header nav ul li:hover{
+    background-color: black;
+    color: aliceblue;
+    transition:1s;
+    padding: 15px 65px;
+}
+header nav{
+    padding: 25px;
+}
+header nav ul a {
+    text-decoration: none;
+}
