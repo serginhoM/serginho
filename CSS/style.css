@@ -36,7 +36,36 @@ header nav ul li:hover{
 }
 header nav{
     padding: 25px;
+    
 }
 header nav ul a {
     text-decoration: none;
+}
+.contenier-descricao{
+    display: flex;
+}
+main h1{
+    text-align:center ;
+    text-transform: uppercase;
+    padding: 35px;
+    
+}
+.contenier-descricao img{
+    margin: 0px 25px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px magenta;
+   /* width: ;largura*/
+   /* height: ;/*altura87*/
+    
+}
+.paragrafos-descricao p{
+    font-size: 20 px;
+    text-align: justify;
+    padding: 0px 25px 10px 15px;
+}
+.accordion{
+    padding: 15px 20px;
+}
+.card-header { black color: ;
+    background-color: #FFF;
 }
